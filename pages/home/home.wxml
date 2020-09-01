@@ -1,0 +1,9 @@
+<!--components/home/home.wxml-->
+<view>
+<!-- 影院热映 -->
+  <d-hotMovies/>
+  <!-- 热门电视剧 -->
+  <d-TVplay/>
+  <!-- 即将上映 -->
+  <d-will/>
+</view>

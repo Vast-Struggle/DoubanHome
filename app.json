@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/mine/mine",
+    "components/d-hotMovies/d-hotMovies",
+    "components/d-TVplay/d-TVplay",
+    "components/d-will/d-will"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00B51D",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home1.jpg",
+        "selectedIconPath": "images/home2.jpg"
+      },
+      {
+        "text": "榜单",
+        "pagePath": "pages/list/list",
+        "iconPath": "images/list1.jpg",
+        "selectedIconPath": "images/list2.jpg"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine1.jpg",
+        "selectedIconPath": "images/mine2.jpg"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "van-swipe-cell": "@vant/weapp/swipe-cell/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-rate": "@vant/weapp/rate/index"
+  }
+}

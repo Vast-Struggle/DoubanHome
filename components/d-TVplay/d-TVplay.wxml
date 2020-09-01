@@ -1,0 +1,99 @@
+<view>
+<view>
+  <view class="hot">热门电视剧</view>
+  <view class="more">查看更多<van-icon name="arrow" /></view>
+</view>
+  <scroll-view class="scroll-view_H"
+    scroll-x="true" bindscroll="scroll" style="width: 100%">
+    <view id="demo1" class="scroll-view-item_H demo-text-1">
+      <image src="/images/传闻中的陈芊芊.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">传闻中的陈芊芊</view>
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>7.5</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo2"  class="scroll-view-item_H demo-text-2">
+      <image src="/images/我才不要和你做朋友呢.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">我才不要和你做朋友呢</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>8.2</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-3">
+      <image src="/images/幸福，触手可及.jpg" class="img1"></image> 
+      <view class="score">
+        <view class="word">幸福，触手可及</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>5.4</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-4">
+      <image src="/images/国王：永远的君主.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">国王：永远的君主</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>7.3</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-5">
+      <image src="/images/月上重火.jpg" class="img1"></image> 
+      <view class="score">
+        <view class="word">月上重火</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>6.1</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  </view>

@@ -1,0 +1,99 @@
+<view>
+<view>
+  <view class="hot">即将上映</view>
+  <view class="more">查看更多<van-icon name="arrow" /></view>
+</view>
+  <scroll-view class="scroll-view_H"
+    scroll-x="true" bindscroll="scroll" style="width: 100%">
+    <view id="demo1" class="scroll-view-item_H demo-text-1">
+      <image src="/images/庆余年.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">庆余年</view>
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>8.0</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo2"  class="scroll-view-item_H demo-text-2">
+      <image src="/images/误杀.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">误杀</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>8.2</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-3">
+      <image src="/images/黑水.jpg" class="img1"></image> 
+      <view class="score">
+        <view class="word">黑水</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>8.4</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-4">
+      <image src="/images/给我翅膀.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">给我翅膀</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>7.3</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-5">
+      <image src="/images/阳光普照.jpg" class="img1"></image> 
+      <view class="score">
+        <view class="word">阳光普照</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>8.5</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  </view>

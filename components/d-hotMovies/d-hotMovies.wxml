@@ -1,0 +1,107 @@
+<view>
+<view>
+  <van-search
+    value="{{ value }}"
+    input-align="center"
+    background="#00B51D"
+    placeholder="搜索"
+  />
+</view>
+<view>
+  <view class="hot">影院热映</view>
+  <view class="more">查看更多<van-icon name="arrow" /></view>
+</view>
+  <scroll-view class="scroll-view_H"
+    scroll-x="true" bindscroll="scroll" style="width: 100%">
+    <view id="demo1" class="scroll-view-item_H demo-text-1">
+      <image src="/images/春潮.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">春潮</view>
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>7.0</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo2"  class="scroll-view-item_H demo-text-2">
+      <image src="/images/真心半解.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">真心半解</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>7.5</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-3">
+      <image src="/images/利刃出鞘.jpg" class="img1"></image> 
+      <view class="score">
+        <view class="word">利刃出鞘</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>6.5</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-4">
+      <image src="/images/天气之子.jpg" class="img1"></image>
+      <view class="score">
+        <view class="word">天气之子</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>6.0</text>
+        </view>
+      </view>
+    </view>
+    <view id="demo3" class="scroll-view-item_H demo-text-5">
+      <image src="/images/平原上的夏洛克.jpg" class="img1"></image> 
+      <view class="score">
+        <view class="word">平原上的夏洛克</view> 
+        <view class="star">
+           <van-rate
+            value="{{ value }}"
+            size="{{ 25 }}"
+            allow-half
+            color="#ffd21e"
+            void-color="#eee"
+            void-icon="star"
+            bind:change="onChange"
+          />
+          <text>8.0</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  </view>

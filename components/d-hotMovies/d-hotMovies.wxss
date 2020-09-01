@@ -1,0 +1,49 @@
+/* components/d-hotMovies/d-hotMovies.wxss */
+.scroll-view_H{
+  white-space: nowrap;
+  height: 400rpx;
+}
+/* .scroll-view-item{
+  height: 340rpx;
+}  */
+.scroll-view-item_H{
+  display: inline-block;
+  width: 180rpx;
+  height: 220rpx;
+  margin-left: 7px;
+}
+
+.van-col {
+  background-color: #56a5f1;
+  color: #fff;
+}
+.van-col.col2 view{
+  background-color: aquamarine;
+}
+.img1{
+  width: 180rpx;
+  height: 220rpx;
+  border-radius: 4px;
+}
+.hot{
+  float: left;
+  font-size: 13px;
+  margin: 7px;
+}
+.more{
+  float: right;
+  color: #00B51D;
+  font-size: 13px;
+  margin: 7px;
+}
+.word{
+  font-size: 11px;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.star{
+  transform: scale(0.45);
+  float: left;
+  margin-left: -48px;
+}
